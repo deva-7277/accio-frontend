@@ -4,17 +4,109 @@
     box-sizing: border-box;
 }
 
-body {
-    margin: 2%;
-    justify-content: center;
-    overflow: hidden;
+body{
+    min-height: 100vh;
+    margin-top: 100px; 
+    margin-left: 30px;
+    background-color: #000;
 }
 
-.box-wrapper {
-    height: 95vh;
+.td1{
+    background-color: black; color: white;  text-align: center;
+}
+table, th ,td{
+    border: 1px solid yellow;
+    padding: 20px;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+td{
+    padding: 20px;  
+}
+
+p{
+    color: white;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     display: flex;
-    flex-direction: column;
-    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 20px 40px;
+    background-color: #FCAF02;
 }
 
+header .logo{
+    position: relative;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+    color: #000;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    font-weight: 500px;
+}
+
+header ul li{
+    position: relative;
+    list-style: none;
+
+}
+
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color :black
+}
+
+
+.column {
+    float: left;
+    width: 70%;
+}
+
+.column1 {
+    float: left;
+    width: 45%;
+}
+  .button {
+    margin-top: 20px;
+    background-color: #FCAF02;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    width: 20%;
+}
+
+div{
+ 
+    padding: 20px 10px;
+}
+input[type='text'],input[type='email'],input[type='tel']{
+    border: 2px solid #FCAF02;
+    background-color: #000;
+    width: 100%;
+    padding: 15px 32px;
+    border-radius: 20px;
+}
+
+.twosection{
+
+}
